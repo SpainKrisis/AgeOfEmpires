@@ -1,0 +1,74 @@
+<footer class="footer">
+    <div class="footer__logo">
+        <img class="img__foot" src="/assets/img/ageofempires-logo.webp" alt="logoAOE">
+    </div>
+
+    <div class="footer__menu">
+        <nav>
+            <a href="" class="footer__a">Manage Cookies</a>
+            <a href="" class="footer__a">Terms of Use</a>
+            <a href="" class="footer__a">Trademarks</a>
+            <a href="" class="footer__a">Privacy and Cookies</a>
+            <a href="" class="footer__a">Consumer Health Privacy</a>
+            <a href="" class="footer__a">Code of Conduct</a>
+            <a href="" class="footer__a">World's Edge Careers</a>
+        </nav>
+        <p class="footer__p">&copy; 2026 Microsoft. All rights reserved</p>
+    </div>
+</footer>
+
+<style>
+
+.footer{
+    width: 100%;
+    min-height: 452px;
+    background-color: black;
+    background-image: url(/assets/img/swoosh.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 0px;
+    border-top: 4px solid;
+    border-image: linear-gradient(
+        to right,
+        transparent,
+        rgba(184, 134, 45, 1),
+        transparent
+      )
+      1;
+}
+
+
+.footer__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer__a{
+    text-decoration: underline;
+    color: var(--color-links);
+    font-family: var(--secondary-font);
+    margin: 20px;
+
+}
+.img__foot{
+    width: 700px;
+}
+
+.footer__p{
+    color: var(--color-light);
+}
+
+
+</style>
